@@ -3,7 +3,7 @@
 
  public $name;
 
- function __construct($name){
+ function __construct($name){// space required between functon and construct
     $this->name = $name;
 
  }
