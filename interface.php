@@ -1,6 +1,6 @@
 <?php
 interface MyInterface{
-    public function getName($name):
+    public function getName($name);
     public function getAge($age);
 }
 
@@ -8,7 +8,7 @@ class MyClass implements MyInterface{
 
 public function getName($name){
 
-echo"My name is $name";.'<br>';
+echo"My name is $name".'<br>';
 }
 
 public function getAge($age){
